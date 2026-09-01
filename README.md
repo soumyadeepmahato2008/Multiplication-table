@@ -24,20 +24,22 @@ Multiplication_Table/
 
 #include <stdio.h>
 
-int main() {
-    int num;
 
-    printf("Enter a number: ");
-    scanf("%d", &num);
+    int main() 
+    {
+        int num;
+        printf("Enter a number: ");
+        scanf("%d", &num);
 
-    printf("\nMultiplication Table of %d\n", num);
+        printf("\nMultiplication Table of %d\n", num);
 
-    for(int i = 1; i <= 10; i++) {
-        printf("%d x %d = %d\n", num, i, num * i);
+        for(int i = 1; i <= 10; i++) 
+        {
+            printf("%d x %d = %d\n", num, i, num * i);
+        }
+
+        return 0;
     }
-
-    return 0;
-}
 
 🚀 How to Compile and Run
 
